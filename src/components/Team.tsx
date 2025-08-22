@@ -17,7 +17,7 @@ export default function Team() {
     {
       name: "Ritika Gaikwad",
       role: "Co-Founder",
-      bio: "Her focus on innovation, structure, and initiative brought BR1DGE from an idea to a full-fledged hackathon. With a passion for solving problems and creating impact, Ritika is the driving force behind our team's mission.",
+      bio: "Her focus on innovation, structure, and initiative brought BR1DGE from an idea to a full-fledged hackathon. With a passion for solving problems and creating impact, Ritika is the driving force behind our team's mission",
       image: Ritika,
       social: {
         github: "#",

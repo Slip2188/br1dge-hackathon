@@ -31,7 +31,7 @@ export default function Hero() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://forms.gle/wXkj1Fxn8Gvh1LWT8" target="_blank">
+            <a href="https://forms.gle/kSESAdCvyuvGMoUEA" target="_blank">
               <button className="bg-gradient-to-r from-[#b4500a] to-[#843a06] rounded-md text-white text-lg px-8 py-4 font-Montserrat font-bold hover:shadow-lg transform hover:scale-105 transition-all duration-200 w-50 h-18">
                 Register Now
               </button>
