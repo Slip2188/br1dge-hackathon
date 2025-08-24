@@ -3,9 +3,9 @@ import { Book, Users, BookA, Code } from 'lucide-react';
 export default function EventFlow() {
   const schedule = [
     {
-      time: "21st August",
+      time: "24th August",
       title: "Registrations Open",
-      description: "Registration for the hackathon will open from 24st August to 24st September",
+      description: "Registration for the hackathon will open from 24th August to 24th September",
       icon: Users,
       color: "from-[#b4500a] to-[#843a06]"
     },
