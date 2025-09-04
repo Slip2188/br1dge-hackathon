@@ -3,7 +3,6 @@ import Jay from '../assets/Jay.jpeg';
 import Ritika from '../assets/Ritika.jpeg';
 import Prisha from '../assets/Prisha.jpeg';
 import Labdhi from '../assets/Labdhi.jpeg';
-import Ojas from '../assets/Ojas.jpeg';
 import Naksh from '../assets/Naksh.jpeg';
 
 export default function Team() {
@@ -63,17 +62,6 @@ export default function Team() {
       role: "Creative Director",
       bio: "With a passion for storytelling and an eye for detail, Jay turns our hackathon into a visual experience through his trusty camera",
       image: Jay,
-      social: {
-        github: "#",
-        linkedin: "#",
-        twitter: "#"
-      }
-    },
-    {
-      name: "Ojas Bhutkar",
-      role: "Marketing Head",
-      bio: "With expertise in outreach and engagement, Ojas helps us build a community that shares our vision amplifying our hackathon’s voice and message",
-      image: Ojas,
       social: {
         github: "#",
         linkedin: "#",
