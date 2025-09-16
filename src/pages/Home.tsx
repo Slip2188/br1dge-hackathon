@@ -10,6 +10,7 @@ import Requirements from '../components/Requirements';
 import Team from '../components/Team';
 import Socials from '../components/Socials';
 import Footer from '../components/Footer';
+import EventDay from '../components/EventDay';
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Tracks />
       {/* <Prizes /> */}
       <EventFlow />
+      <EventDay/>
       <Team />
       <Socials />
       <Footer />

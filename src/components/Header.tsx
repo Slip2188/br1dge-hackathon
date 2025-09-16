@@ -21,6 +21,7 @@ export default function Header() {
     { name: 'Requirements', href: '#requirements' },
     { name: 'Tracks', href: '#tracks' },
     { name: 'Event Flow', href: '#event-flow' },
+    { name: 'Event Day', href: '#event-day' },
     { name: 'Team', href: '#team' },
     { name: 'Contact', href: '#contact' },
   ];
