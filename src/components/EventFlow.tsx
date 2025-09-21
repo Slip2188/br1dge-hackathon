@@ -5,26 +5,26 @@ export default function EventFlow() {
     {
       time: "24th August",
       title: "Registrations Open",
-      description: "Registration for the hackathon will open from 24th August to 24th September",
+      description: "Registration for the hackathon will open from 24th August to 2nd October",
       icon: Users,
       color: "from-[#b4500a] to-[#843a06]"
     },
     {
-      time: "26th September",
+      time: "3rd October",
       title: "General Workshop",
       description: "Join our general workshop to get familiar with the hackathon format, requirements, and submission protocol with Q&A with organizers to clarify doubts",
       icon: Book,
       color: "from-[#0f828c] to-[#78b9b5]"
     },
     {
-      time: "27th September",
+      time: "4th October",
       title: "Specialised Workshop",
       description: "Each track includes a dedicated session where experts share insights, tools, and best practices tailored to your theme",
       icon: BookA,
       color: "from-[#065084] to-[#5b8fb9]"
     },
     {
-      time: "28th September",
+      time: "12th October",
       title: "Hackathon Day",
       description: "The final day where you will bring your creativity to life through innovation",
       icon: Code,
