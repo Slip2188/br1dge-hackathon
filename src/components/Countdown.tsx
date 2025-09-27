@@ -11,7 +11,7 @@ export default function Countdown() {
 
   useEffect(() => {
     // Set hackathon date to 30 days from now for demo
-    const hackathonDate = new Date("September 28, 2025 09:00:00");
+    const hackathonDate = new Date("October 12, 2025 09:00:00");
 
     const updateCountdown = () => {
       const now = new Date().getTime();
@@ -44,7 +44,7 @@ export default function Countdown() {
         </div>
         
         <p className="text-xl text-[#78b9b5] mb-12 max-w-2xl mx-auto font-Montserrat">
-          Join us on 28th September at 9am for the ultimate innovation challenge!
+          Join us on 12th October at 9am for the ultimate innovation challenge!
         </p>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">

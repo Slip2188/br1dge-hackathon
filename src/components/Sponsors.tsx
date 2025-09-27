@@ -13,7 +13,7 @@ export default function Sponsors() {
     {
       tier: "NGO Sponsors",
       companies: [
-        { name: "Atharva Foundation", logo: AFLOGO, link:"https://www.instagram.com/atharva_d.bjp/" }
+        { name: "Atharva Foundation", logo: AFLOGO}
       ],
       color: "from-[#b4500a] to-[#843a06]",
       icon: Building2
@@ -60,17 +60,15 @@ export default function Sponsors() {
                 'grid-cols-2 md:grid-cols-4'
               } gap-6 max-w-4xl mx-auto`}>
                 {tier.companies.map((company, companyIndex) => (
-                  <a href={company.link} target="_blank">
-                    <div 
-                      key={companyIndex}
-                      className="bg-white/10 backdrop-blur-sm rounded-md p-6 hover:transform hover:scale-105 transition-all duration-300 w-50"
-                    >
-                      <img src={company.logo} alt="logo"/>
-                      <h4 className="text-[#b6eada] font-semibold text-lg font-Montserrat">
-                        {company.name}
-                      </h4>
-                    </div>
-                  </a>
+                  <div 
+                    key={companyIndex}
+                    className="bg-white/10 backdrop-blur-sm rounded-md p-6 hover:transform hover:scale-105 transition-all duration-300 w-50"
+                  >
+                    <img src={company.logo} alt="logo"/>
+                    <h4 className="text-[#b6eada] font-semibold text-lg font-Montserrat">
+                      {company.name}
+                    </h4>
+                  </div>
                 ))}
               </div>
             </div>
