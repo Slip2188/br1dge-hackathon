@@ -1,4 +1,4 @@
-import { Target, Eye } from 'lucide-react';
+import { UsersRound, Hash } from 'lucide-react';
 
 export default function About() {
   return (
@@ -19,22 +19,22 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
           <div className="bg-[#03001c]/50 backdrop-blur-sm rounded-md p-8 text-center hover:transform hover:scale-105 transition-all duration-300">
             <div className="bg-[#b4500a] rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-              <Eye className="text-white" size={28} />
+              <Hash className="text-white" size={28} />
             </div>
-            <h3 className="text-3xl text-[#b6eada] mb-4 font-KodeMono">Vision</h3>
-            <p className="text-[#78b9b5] leading-relaxed font-Montserrat">
-              To make innovation more inclusive by giving every student a chance to explore, create, and solve real-world problems. BR1DGE aims to be a space where young people from all backgrounds can connect, learn, and build something meaningful together
-            </p>
+            <h3 className="text-xl text-[#78b9b5] mb-4 font-KodeMono">Total Participants</h3>
+            <h3 className="text-[#b6eada] text-4xl md:text-6xl font-bold mb-2 font-KodeMono">
+              22
+            </h3>
           </div>
 
           <div className="bg-[#03001c]/50 backdrop-blur-sm rounded-md p-8 text-center hover:transform hover:scale-105 transition-all duration-300">
             <div className="bg-[#0f828c] rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-              <Target className="text-white" size={28} />
+              <UsersRound className="text-white" size={28} />
             </div>
-            <h3 className="text-3xl text-[#b6eada] mb-4 font-KodeMono">Mission</h3>
-            <p className="text-[#78b9b5] leading-relaxed">
-              To empower high schoolers and college freshers to build inclusive, impactful solutions across education, health tech, and financial literacy. BR1DGE exists to spark creativity, foster collaboration, and connect young innovators to real-world opportunities through technology and design.            
-            </p>
+            <h3 className="text-xl text-[#78b9b5] mb-4 font-KodeMono">Total Registered Teams</h3>
+            <h3 className="text-[#b6eada] text-4xl md:text-6xl font-bold mb-2 font-KodeMono">
+              11  
+            </h3>
           </div>
 
         </div>
