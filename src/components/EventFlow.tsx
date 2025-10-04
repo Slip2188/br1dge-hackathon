@@ -10,7 +10,7 @@ export default function EventFlow() {
       color: "from-[#b4500a] to-[#843a06]"
     },
     {
-      time: "3th October",
+      time: "5th October",
       title: "General Workshop",
       description: "Join our general workshop to get familiar with the hackathon format, requirements, and submission protocol with Q&A with organizers to clarify doubts",
       icon: Book,
