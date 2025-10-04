@@ -1,4 +1,4 @@
-import { Book, Users, BookA, Code } from 'lucide-react';
+import { Book, Users, Code } from 'lucide-react';
 
 export default function EventFlow() {
   const schedule = [
@@ -10,19 +10,19 @@ export default function EventFlow() {
       color: "from-[#b4500a] to-[#843a06]"
     },
     {
-      time: "3rd October",
+      time: "3th October",
       title: "General Workshop",
       description: "Join our general workshop to get familiar with the hackathon format, requirements, and submission protocol with Q&A with organizers to clarify doubts",
       icon: Book,
       color: "from-[#0f828c] to-[#78b9b5]"
     },
-    {
-      time: "4th October",
-      title: "Specialised Workshop",
-      description: "Each track includes a dedicated session where experts share insights, tools, and best practices tailored to your theme",
-      icon: BookA,
-      color: "from-[#065084] to-[#5b8fb9]"
-    },
+    // {
+    //   time: "4th October",
+    //   title: "Specialised Workshop",
+    //   description: "Each track includes a dedicated session where experts share insights, tools, and best practices tailored to your theme",
+    //   icon: BookA,
+    //   color: "from-[#065084] to-[#5b8fb9]"
+    // },
     {
       time: "12th October",
       title: "Hackathon Day",
