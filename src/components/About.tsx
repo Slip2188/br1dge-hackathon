@@ -23,7 +23,7 @@ export default function About() {
             </div>
             <h3 className="text-xl text-[#78b9b5] mb-4 font-KodeMono">Total Participants</h3>
             <h3 className="text-[#b6eada] text-4xl md:text-6xl font-bold mb-2 font-KodeMono">
-              22
+              27
             </h3>
           </div>
 
@@ -33,7 +33,7 @@ export default function About() {
             </div>
             <h3 className="text-xl text-[#78b9b5] mb-4 font-KodeMono">Total Registered Teams</h3>
             <h3 className="text-[#b6eada] text-4xl md:text-6xl font-bold mb-2 font-KodeMono">
-              11  
+              12  
             </h3>
           </div>
 
