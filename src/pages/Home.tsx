@@ -3,7 +3,7 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 import Countdown from '../components/Countdown';
 import EventFlow from '../components/EventFlow';
-// import Prizes from '@/react-app/components/Prizes';
+import Judges from '../components/Judges';
 import Sponsors from '../components/Sponsors';
 import Tracks from '../components/Tracks';
 import Requirements from '../components/Requirements';
@@ -20,9 +20,9 @@ export default function Home() {
       <Countdown />
       <About />
       <Sponsors />
+      <Judges />
       <Requirements />
       <Tracks />
-      {/* <Prizes /> */}
       <EventFlow />
       <EventDay/>
       <Team />

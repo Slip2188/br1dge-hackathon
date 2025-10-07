@@ -17,7 +17,7 @@ export default function Header() {
     { name: 'About', href: '#about' },
     { name: 'Sponsors', href: '#sponsors' },
     // { name: 'Countdown', href: '#countdown' },
-    // { name: 'Prizes', href: '#prizes' },
+    { name: 'Judges', href: '#judges' },
     { name: 'Requirements', href: '#requirements' },
     { name: 'Tracks', href: '#tracks' },
     { name: 'Event Flow', href: '#event-flow' },

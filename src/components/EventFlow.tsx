@@ -5,7 +5,7 @@ export default function EventFlow() {
     {
       time: "24th August",
       title: "Registrations Open",
-      description: "Registration for the hackathon will open from 24th August to 2nd October",
+      description: "Registration for the hackathon will open from 24th August",
       icon: Users,
       color: "from-[#b4500a] to-[#843a06]"
     },

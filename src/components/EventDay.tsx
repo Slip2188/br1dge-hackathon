@@ -3,12 +3,8 @@
 export default function EventFlow() {
   const schedule = [
     {
-      time: "8:00 AM",
-      title: "Reporting and Check in"
-    },
-    {
       time: "9:00 AM",
-      title: "Breakfast and Briefing",
+      title: "Reporting and Briefing",
     },
     {
       time: "9:30 AM",
@@ -28,7 +24,7 @@ export default function EventFlow() {
     },
     {
       time: "4:00 PM",
-      title: "Social Event"
+      title: "Social Event and Presentations"
     },
     {
       time: "5:00 PM",
